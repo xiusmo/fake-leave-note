@@ -524,7 +524,7 @@ fun EditPage(navController: NavController) {
                             onValueChange = { },
                             keyboardOptions = KeyboardOptions.Default.copy(keyboardType = KeyboardType.Text),
                             readOnly = true,
-                            label = { Text("开始时间") },
+                            label = { Text("结束时间") },
                             modifier = Modifier
                                 .weight(1f)
                                 .padding(vertical = 8.dp)
